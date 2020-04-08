@@ -9,9 +9,15 @@ aside {
     background-color: LimeGreen;
 }
 main {
-    /**width: calc(100vw - 150px);**/
     height: calc(100vh - 100px);
     background-color: BlanchedAlmond;
+    display: flex;
+}
+.gallery {
+    height: 100%;
+    width: calc(100vw - 150px);
+    background-color: red;
+
 }
 footer {
     height: 100px;
@@ -31,5 +37,4 @@ footer {
     height: 100%;
     width: 150px;
     background-color: lightblue;
-
 }
