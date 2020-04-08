@@ -48,13 +48,12 @@ h5 {
 }
 main {
     height: calc(100vh - 100px);
-    
     display: flex;
 }
 
 .gallery {
     height: 100%;
-    width: calc(100vw - 150px);
+    width: calc(100vw - 200px);
     background-color: red;
     display: flex;
     flex-wrap: wrap;
@@ -77,12 +76,12 @@ footer {
 }
 .footer-left {
     height: 100%;
-    width: 150px;
+    width: 200px;
     background-color: lightcoral;
 }
 .footer-center {
     height: 100%;
-    width: calc(100vw - 300px);
+    width: calc(100vw - 350px);
     background-color: lightgreen;
 }
 .footer-right {
