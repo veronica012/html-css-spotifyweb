@@ -8,6 +8,22 @@ aside {
     height: calc(100vh - 100px);
     background-color: LimeGreen;
 }
+.spotify-logo {
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+.vertical-menu {
+    width: 100%;
+    height: calc(100% - 150px);
+    background-color: yellow;
+
+}
+#dentro-aside {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
 main {
     height: calc(100vh - 100px);
     background-color: BlanchedAlmond;
@@ -17,7 +33,6 @@ main {
     height: 100%;
     width: calc(100vw - 150px);
     background-color: red;
-
 }
 footer {
     height: 100px;
