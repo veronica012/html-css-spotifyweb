@@ -9,7 +9,7 @@ aside {
     background-color: LimeGreen;
 }
 main {
-    /**width: calc(100vw - 250px);**/
+    /**width: calc(100vw - 150px);**/
     height: calc(100vh - 100px);
     background-color: BlanchedAlmond;
 }
