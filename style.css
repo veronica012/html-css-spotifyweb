@@ -24,10 +24,10 @@ aside {
     width: 200px;
     height: calc(100vh - 100px);
     background-color: black;
+
 }
 .spotify-logo img {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 10px;
     max-width: 100%;
     height: auto;
 }
@@ -56,6 +56,17 @@ main {
     height: calc(100vh - 100px);
     display: flex;
 }
+.container {
+    height: calc(100vh - 100px);
+    width: calc(100vw - 200px);
+    background-color: #333333;
+    overflow-y: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+h1 {
+    margin-bottom: 20px;
+}
 header {
     height: 50px;
     text-align: center;
@@ -67,27 +78,24 @@ header ul li {
     text-transform: uppercase;
     font-weight: 300;
 }
-.gallery {
-    height: calc(100vh - 100px);
-    width: calc(100vw - 200px);
-    background-color: #454545;
-    overflow-y: auto;
+#li-bianco {
+    color: white;
+    font-weight: 400;
 }
-
-.spazio-copertine {
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
-
-.playlist {
-    width: 150px;
-    height: 150px;
+.cover {
+    width: 180px;
+    height: 250px;
     background-color: CadetBlue;
     border: 1px solid black;
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 footer {
     height: 100px;
@@ -102,14 +110,13 @@ footer {
 .footer-center {
     height: 100%;
     width: calc(100vw - 600px);
-    background-color: #454545;
+    background-color: #333333;
     display: flex;
     justify-content: space-around;
 }
-.fa-random, .fa-undo {
+.fa-random, .fa-reply {
     color: LimeGreen;
 }
-
 .footer-right {
     height: 100%;
     width: 300px;
