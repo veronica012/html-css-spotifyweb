@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+aside {
+    width: 150px;
+    height: calc(100vh - 100px);
+    background-color: LimeGreen;
+}
+main {
+    /**width: calc(100vw - 250px);**/
+    height: calc(100vh - 100px);
+    background-color: BlanchedAlmond;
+}
+footer {
+    height: 100px;
+    display: flex;
+}
+.footer-left {
+    height: 100%;
+    width: 150px;
+    background-color: lightcoral;
+}
+.footer-center {
+    height: 100%;
+    width: calc(100vw - 300px);
+    background-color: lightgreen;
+}
+.footer-right {
+    height: 100%;
+    width: 150px;
+    background-color: lightblue;
+
+}
