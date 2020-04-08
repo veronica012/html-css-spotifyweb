@@ -6,19 +6,24 @@
 body {
     font-family: 'Roboto Mono', monospace;
     color: #b3b3b3;
-    background-color: black;
+    font-size: 14px;
 }
 a {
     text-decoration: none;
     color: #b3b3b3;
     padding: 5px;
 }
+a:hover {
+    color: white;
+}
 i {
     padding: 5px;
 }
+
 aside {
     width: 200px;
     height: calc(100vh - 100px);
+    background-color: black;
 }
 .spotify-logo img {
     margin-top: 10px;
@@ -33,6 +38,9 @@ aside {
 .vertical-menu li {
     font-weight: 500;
 }
+.fa-heart {
+    color: #c18ff0;
+}
 h5 {
     text-transform: uppercase;
     margin-top: 20px;
@@ -40,26 +48,37 @@ h5 {
     font-weight: 300;
     color: #b3b3b3;
 }
-
 #aside-footer {
     width: 100%;
     height: 100px;
-
 }
 main {
     height: calc(100vh - 100px);
     display: flex;
 }
-
+header {
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 300;
+}
 .gallery {
-    height: 100%;
+    height: calc(100vh - 100px);
     width: calc(100vw - 200px);
-    background-color: red;
+    background-color: #454545;
+    overflow-y: auto;
+}
+
+.spazio-copertine {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    overflow-y: auto;
 }
 
 .playlist {
@@ -73,19 +92,26 @@ main {
 footer {
     height: 100px;
     display: flex;
+    border-top: 1px solid black;
 }
 .footer-left {
     height: 100%;
-    width: 200px;
+    width: 300px;
     background-color: lightcoral;
 }
 .footer-center {
     height: 100%;
-    width: calc(100vw - 350px);
-    background-color: lightgreen;
+    width: calc(100vw - 600px);
+    background-color: #454545;
+    display: flex;
+    justify-content: space-around;
 }
+.fa-random, .fa-undo {
+    color: LimeGreen;
+}
+
 .footer-right {
     height: 100%;
-    width: 150px;
+    width: 300px;
     background-color: lightblue;
 }
