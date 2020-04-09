@@ -6,7 +6,7 @@
 aside {
     background-color: pink;
     width: 200px;
-    height: calc();
+    height: 100%
 
 }
 main {
@@ -18,14 +18,13 @@ main {
     height: calc(100vh - 50px);
     background-color: yellow;
     overflow-y: auto;
-
 }
 .menu-orizzontale ul li {
     display: inline-block;
     text-decoration: none;
 }
 .container {
-    width: 900px;
+    width: 80%;
     height: calc(100vh - 50px);
     background-color: black;
     margin: auto;
