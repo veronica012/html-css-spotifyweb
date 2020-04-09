@@ -6,16 +6,18 @@
 aside {
     background-color: pink;
     width: 200px;
-    height: 800px;
+    height: calc();
 
 }
 main {
     display: flex;
+    height: calc(100vh - 50px);
 }
 .gallery {
     width: calc(100vw - 200px);
-    height: 800px;
+    height: calc(100vh - 50px);
     background-color: yellow;
+    overflow-y: auto;
 
 }
 .menu-orizzontale ul li {
@@ -24,9 +26,10 @@ main {
 }
 .container {
     width: 900px;
-    height: 800px;
+    height: calc(100vh - 50px);
     background-color: black;
     margin: auto;
+
 }
 .copertine {
     display: flex;
