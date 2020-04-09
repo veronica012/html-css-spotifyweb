@@ -47,12 +47,12 @@ h4 {
 
 main {
     display: flex;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 100px);
 }
 .gallery {
     width: calc(100vw - 200px);
-    height: calc(100vh - 50px);
-    background-color: yellow;
+    height: calc(100vh - 100px);
+    background-color: #333333;
     overflow-y: auto;
 }
 .menu-orizzontale {
@@ -65,9 +65,12 @@ main {
 }
 .container {
     width: 80%;
-    background-color: black;
+
     margin: auto;
 
+}
+h1 {
+    margin-bottom: 20px;
 }
 .copertine {
     display: flex;
@@ -84,25 +87,49 @@ header {
     width: 100%;
     height: 50px;
 }
+header ul li a {
+    margin: 10px;
+}
 
 footer {
-    height: 50px;
+    height: 100px;
     width: 100%;
-    background-color: orange;
+    background-color: #333333;
     display: flex;
+    border-top: 1px solid black;
 }
 .footer-left {
     background-color: lightcoral;
     height: 100%;
     width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.fa-random, .fa-reply {
+    color: LimeGreen;
 }
 .footer-center {
     background-color: green;
     height: 100%;
-    width: calc(100% - 300px);
+    width: calc(100% - 350px);
+    display:flex;
+    justify-content: center;
 }
 .footer-right {
-    background-color: lightcoral;
     height: 100%;
-    width: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.footer-right .separatore {
+    background-color: #b3b3b3;
+    height: 3px;
+    border-radius: 3px ;
+    width: 50px;
+    margin: 0;
 }
