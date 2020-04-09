@@ -99,28 +99,46 @@ footer {
     border-top: 1px solid black;
 }
 .footer-left {
-    background-color: lightcoral;
     height: 100%;
-    width: 150px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 10px;
-
+}
+.in-riproduzione {
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
 }
 .fa-random, .fa-reply {
     color: LimeGreen;
 }
 .footer-center {
-    background-color: green;
     height: 100%;
-    width: calc(100% - 350px);
-    display:flex;
-    justify-content: center;
+    width: calc(100% - 600px);
+
 }
+.icone-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.separatore-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separatore-flex .separatore {
+    background-color: #b3b3b3;
+    height: 3px;
+    border-radius: 3px ;
+    width: 60%;
+}
+
 .footer-right {
     height: 100%;
-    width: 200px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
