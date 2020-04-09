@@ -12,7 +12,6 @@ body {
 a {
     text-decoration: none;
     color: #b3b3b3;
-
 }
 a:hover {
     color: white;
@@ -21,7 +20,6 @@ i {
     margin-right: 8px;
     margin-bottom: 8px;
 }
-
 aside {
     width: 200px;
     height: calc(100vh - 100px);
@@ -67,11 +65,11 @@ main {
     height: calc(100vh - 100px);
     display: flex;
 }
+section {
+    width: 100%;
+}
 .container {
     height: calc(100vh - 100px);
-    /**width: calc(100vw - 200px);**/
-    margin: auto;
-    background-color: #333333;
     overflow-y: auto;
 }
 h1 {
@@ -93,7 +91,6 @@ header ul li {
     font-weight: 400;
 }
 .gallery {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -103,11 +100,8 @@ header ul li {
 .cover {
     margin-right: 15px;
     margin-bottom: 15px;
-    border-radius: 10px;
-
 }
 .cover img {
-
 }
 footer {
     height: 100px;
