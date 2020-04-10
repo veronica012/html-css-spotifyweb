@@ -62,7 +62,6 @@ aside {
 .separatore {
     background-color: #b3b3b3;
     height: 1px;
-    width: calc(100% - 40px);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -72,6 +71,9 @@ aside {
     position: absolute;
     bottom: 0;
     top: 85%;
+}
+.aside-footer .separatore {
+    width: 135.6px;
 }
 main {
     display: flex;
