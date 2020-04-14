@@ -182,8 +182,11 @@ footer {
 .canzone a:hover {
     text-decoration: underline;
 }
-.fa-random, .fa-reply {
-    color: LimeGreen;
+.fa-random:hover {
+    color: limegreen;
+}
+.fa-reply:hover {
+    color: limegreen;
 }
 .footer-center {
     height: 100%;
